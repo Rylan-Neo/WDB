@@ -1,0 +1,38 @@
+h1{color:darkorange;
+}
+h2{color:cyan;
+}
+h3{color: crimson;
+}
+h4{color: navy;
+}
+.card {
+      width: 1280px;
+      text-align: center;
+      margin: 80px auto 0;
+      padding: 1.5em;
+      background: #4fa4e6;
+      display: flex;
+      flex-direction: row;
+      width: 92%;
+      flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 0 5px 0 0 rgba(0,0,0,0.1);
+}
+.content {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 45%;
+  flex: 1 46%;
+}  
+.image {
+  position: relative;
+  top: -45px;
+	width: 200px;
+}
+.image2 {
+  position: relative;
+  top: 20px;
+  max-width: 100%;
+  max-height: inherit;
+}
